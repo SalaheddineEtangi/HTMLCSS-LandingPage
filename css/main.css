@@ -105,9 +105,9 @@ section {
 
 .nav-list li a {
   font-size: 16px;
-  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: .2px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 .profile {
