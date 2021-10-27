@@ -104,7 +104,8 @@ section {
 }
 
 .nav-list li a {
-  font: 700 16px 'Open Sans';
+  font: 16px 'Open Sans';
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2px;
 }
