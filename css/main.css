@@ -103,7 +103,7 @@ section {
   margin-top: 10px;
 }
 
-li a {
+.nav-list li a {
   font: 700 16px 'Open Sans';
   text-transform: uppercase;
   letter-spacing: .2px;
