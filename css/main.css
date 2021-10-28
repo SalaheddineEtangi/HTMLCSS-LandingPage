@@ -31,12 +31,10 @@ section {
   border-radius: 3px;
   line-height: 1.4;
 }
-
 .btn-default {
   color: white;
   background-color: #faa541;
 }
-
 .btn-primary {
   color: white;
   background-color: #364147;
@@ -54,12 +52,10 @@ section {
   font-size: 30px;
   color: #a0a0a0;
 }
-
 .text-secondary {
   font-size: 30px;
   color: #faa541;
 }
-
 .text-primary {
   font-size: 16px;
   color: #364147;
@@ -75,7 +71,6 @@ section {
   margin-left: -15px;
   margin-right: 60px;
 }
-
 .logo {
   max-width: 100%;
   height: auto;
@@ -87,7 +82,6 @@ section {
   padding: 6px 12px;
   border: 1px solid #a0a0a0;
 }
-
 .search-button {
   background-color: #a0a0a0;
   color: #ffffff;
@@ -102,7 +96,6 @@ section {
   width: 575px;
   margin-top: 10px;
 }
-
 .nav-list li a {
   font-size: 16px;
   text-transform: uppercase;
@@ -113,23 +106,19 @@ section {
 .profile {
   margin-left: auto;
 }
-
 .account {
   text-align: right;
   padding: 15px;
   color: #364147;
   font-size: 18px;
 }
-
 .account a {
   font-size: 14px;
 }
-
 .profile-pic {
   width: 60px;
   height: 60px;
 }
-
 .profile-pic img {
   border-radius: 100px;
   max-width: 100%;
@@ -142,22 +131,18 @@ section {
   background-position: center center;
   text-transform: uppercase;
 }
-
 .hero h1 {
   position: relative;
   left: -30px;
 }
-
 .hero h2 {
   color: #faa541;
 }
-
 .hero h1, .hero h2 {
   font-size: 63px;
   font-weight: 700;
   line-height: 0.9;
 }
-
 .hero p {
   letter-spacing: 2px;
   font-weight: 700;
@@ -172,11 +157,9 @@ section {
   border-bottom: 1px solid #a0a0a0;
   padding: 25px 0;
 }
-
 .banner img {
   width: 250px;
 }
-
 .banner-text {
   font-size: 30px;
   font-weight: 700;
@@ -184,7 +167,6 @@ section {
   line-height: 1;
   text-align: center;
 }
-
 .banner-text > div:last-child {
   font-size: 16px;
   font-weight: 400;
@@ -195,26 +177,83 @@ section {
   flex: 0 0 25%;
   padding: 0 15px;
 }
-
 .category img {
   width: 100%;
 }
-
 .category-text {
   color: #364147;
   padding: 30px 0;
   text-transform: uppercase;
   text-align: center;
 }
-
 .category-text > div {
   font-size: 16px;
   font-weight: 200;
   color: #faa541;
 }
-
 .category-text h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
+}
+
+.full-banner {
+  padding: 0 15px;
+  margin: 50px 0;
+  position: relative;
+}
+.full-banner::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #ffffff;
+  top: 30px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
+  z-index: 1;
+}
+.full-banner-image {
+  flex: 0 0 58.333333%;
+  background-image: url('../img/vista.jpg');
+  background-size: cover;
+  background-position: top center;
+  min-height: 400px;
+}
+.full-banner-sidebar {
+  flex: 0 0 41.666667%;
+  background-color: #364147;
+  text-transform: uppercase;
+  padding: 30px;
+  color: #ffffff;
+}
+.full-banner-sidebar h4 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  color: #637f94;
+  line-height: 1;
+}
+.full-banner-sidebar h4:after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #faa541;
+  margin: 20px auto;
+  display: block;
+}
+.full-banner-sidebar > div:nth-of-type(1) {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+}
+.full-banner-sidebar > div:nth-of-type(2) {
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.full-banner-sidebar .btn.btn-default {
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
 }
