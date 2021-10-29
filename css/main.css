@@ -294,7 +294,7 @@ footer a {
   color: white;
   text-transform: uppercase;
   font-size: 12px;
-  margin: 0 0 4px;
+  padding: 0 0 4px;
 }
 footer a:hover {
   text-decoration: underline;
@@ -352,7 +352,7 @@ footer a:hover {
 .demo {
   padding: 0 30px;
 }
-.demo::before {
+.demo:before {
   content: "";
   display: block;
   width: 100%;
